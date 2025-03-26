@@ -443,3 +443,6 @@ Build a React component that displays a number and a button. Every time the butt
 4. Accessing DOM Elements Without Re-render
 
 Create a React component with multiple input fields. Use useRef to store references to each input field and add a button that clears all input fields when clicked, without causing a re-render.
+
+Prop Drilling:-----
+  - It is a process by which we can pass the data from one part of the component to another part of the component.
