@@ -1,23 +1,23 @@
-
 Node.js is an open source server environment
 Node.js is free
 Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
 Node.js uses JavaScript on the server
 
-
-Common use for the File System module:
-    - Read files
-    - Create files
-    - Update files
-    - Delete files
-    - Rename files
+Node.js File System Module------------->>>>>>>>>>>>>>>>>
+Node.js as a File Server:--
+    Common use for the File System module:
+       - Read files
+       - Create files
+       - Update files
+       - Delete files
+       - Rename files
 
 Read Files----------
-The fs.readFile() method is used to read files on your computer.
+    - The fs.readFile() method is used to read files on your computer.
 
 Create Files---------
-The File System module has methods for creating new files:
-fs.appendFile()
+    - The File System module has methods for creating new files:
+        fs.appendFile()
 fs.open()
 fs.writeFile()
 - The fs.appendFile() method appends specified content to a file. If the file does not exist, the file will be created.
