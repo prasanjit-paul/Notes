@@ -18,31 +18,37 @@ Read Files----------
 Create Files---------
     - The File System module has methods for creating new files:
         fs.appendFile()
-fs.open()
-fs.writeFile()
-- The fs.appendFile() method appends specified content to a file. If the file does not exist, the file will be created.
-- The fs.open() method takes a "flag" as the second argument, if the flag is "w" for "writing", the specified file is opened for writing. If the file does not exist, an empty file is created.
-- The fs.writeFile() method replaces the specified file and content if it exists. If the file does not exist, a new file, containing the specified content, will be created.
+        fs.open()
+        fs.writeFile()
+        
+    - The fs.appendFile() method appends specified content to a file. If the file does not exist, the file will be created.
+
+    - The fs.open() method takes a "flag" as the second argument, if the flag is "w" for "writing", the specified file is opened for writing. If the file does not exist, an empty file is created.
+
+    - The fs.writeFile() method replaces the specified file and content if it exists. If the file does not exist, a new file, containing the specified content, will be created.
 
 Update Files---------
-The File System module has methods for updating files:
-fs.appendFile()
-fs.writeFile()
-- The fs.appendFile() method appends the specified content at the end of the specified file.
-- The fs.writeFile() method replaces the specified file and content.
+    - The File System module has methods for updating files:
+        fs.appendFile()
+        fs.writeFile()
+    
+    - The fs.appendFile() method appends the specified content at the end of the specified file.
+
+    - The fs.writeFile() method replaces the specified file and content.
 
 Delete Files---------
-To delete a file with the File System module,  use the fs.unlink() method.
-- The fs.unlink() method deletes the specified file.
+    - To delete a file with the File System module:
+          use the fs.unlink() method.
+    - The fs.unlink() method deletes the specified file.
 
 Rename Files----------
-To rename a file with the File System module,  use the fs.rename() method.
-The fs.rename() method renames the specified file.
+    - To rename a file with the File System module,  use the fs.rename() method.
+    - The fs.rename() method renames the specified file.
 
 
 URL Module------------->>>>>>>>>>>>>>>>>>>>>>>>>>>
 The Built-in URL Module---------
-- The URL module splits up a web address into readable parts.
+    - The URL module splits up a web address into readable parts.
 
     To include the URL module, use the require() method.
 
@@ -53,9 +59,9 @@ The Built-in URL Module---------
 
 
 NPM----------------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-NPM is a package manager for Node.js packages, or modules if you like.
-www.npmjs.com hosts thousands of free packages to download and use.
-The NPM program is installed on your computer when you install Node.js
+    - NPM is a package manager for Node.js packages, or modules if you like.
+    - www.npmjs.com hosts thousands of free packages to download and use.
+    - The NPM program is installed on your computer when you install Node.js
 
 What is a Package?
     - A package in Node.js contains all the files you need for a module.
@@ -64,6 +70,7 @@ What is a Package?
 Download a Package
     - Downloading a package is very easy.
     - Open the command line interface and tell NPM to download the package you want.
+
     - I want to download a package called "upper-case"
     - NPM creates a folder named "node_modules", where the package will be placed. All packages you install in the future will be placed in this folder.
 
@@ -71,14 +78,19 @@ Using a Package
     - Once the package is installed, it is ready to use.
     - Include the "upper-case" package the same way you include any other module
 
-Events in Node.js------------------>>>>>>>>>>>>>>>>>>>>>>>>
+Node.js Events------------------>>>>>>>>>>>>>>>>>>>>>>>>
+    - Node.js is perfect for event-driven applications.
+
+Events in Node.js -------------
     - Node.js is perfect for event-driven applications.
     - Every action on a computer is an event. Like when a connection is made or a file is opened.
     - Objects in Node.js can fire events, like the readStream object fires events when opening and closing a file.
 
-Events Module------------------>>>>>>>>>>>>
+Events Module-----------------
     - Node.js has a built-in module, called "Events", where you can create-, fire-, and listen for- your own events.
-    - To include the built-in Events module use the require() method. In addition, all event properties and methods are an instance of an EventEmitter object. To be able to access these properties and methods, create an EventEmitter object.
+
+    - To include the built-in Events module use the require() method. In addition, all event properties and methods are an instance of an EventEmitter object. 
+    - To be able to access these properties and methods, create an EventEmitter object.
 
 The EventEmitter Object
     - You can assign event handlers to your own events with the EventEmitter object.
@@ -91,7 +103,7 @@ The Formidable Module-----------
     - The Formidable module can be downloaded and installed using NPM.
     - After you have downloaded the Formidable module, you can include the module in any application.
 
-    Upload Files----
+    Upload Files-----------
     - Now you are ready to make a web page in Node.js that lets the user upload files to your computer
 
     - Step 1: Create an Upload Form
