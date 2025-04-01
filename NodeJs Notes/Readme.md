@@ -140,5 +140,3 @@ Send HTML
 http method:-
     - http get -> When you want to get some data from the server.(Get Request)
     - http Post -> When you want to send and mutate some data in server.(Post Request from data)
-
-https://www.geeksforgeeks.org/javascript-interview-questions/
