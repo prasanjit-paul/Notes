@@ -139,7 +139,7 @@ Components in React Js:-
 
         2. Functional Based Component
             - Now we are using functional based component in everywhere.
-            - This is modern and most recommended way oof writing react js component
+            - This is modern and most recommended way of writing react js component
             - Ex: 
 
                 import React from 'react';
@@ -163,9 +163,7 @@ Fragment in React JS:-
           )
         }
 
-
         or
-
 
         const App = () => {
         return (
