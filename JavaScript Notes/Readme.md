@@ -88,7 +88,7 @@ Data type:-
        return a+b;
     }
     let result  = addNumber (5,3);
-    console.log(result); 8
+    console.log(result); //8
 
 
 QUESTIONS:-
